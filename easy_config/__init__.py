@@ -5,6 +5,6 @@
 # @File    : __init__.py.py
 # @Software: PyCharm
 
-
+from .file_loader import FileLoader
+from .addict import Dict
 from .config import EasyConfig
-from .Dict import Dict

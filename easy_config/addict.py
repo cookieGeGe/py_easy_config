@@ -113,7 +113,7 @@ class Dict(dict):
         if args:
             if len(args) > 1:
                 raise TypeError()
-            other.update(args[0])
+            other.update(Dict(args[0]))
         other.update(Dict(kwargs))
         for k, v in other.items():
             if ((k not in self) or

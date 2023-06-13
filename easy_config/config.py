@@ -9,7 +9,7 @@ import os.path
 import anyconfig
 
 from easy_config import Dict
-from easy_config.file_loader import FileLoader
+from easy_config import FileLoader
 
 
 class EasyConfig(object):

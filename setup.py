@@ -11,8 +11,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='easy_config',
-    version='0.0.1.beta',
+    name='easy-config-py',
+    version='0.0.3',
     packages=['easy_config'],
     install_requires=['anyconfig'],
     license='MIT',
