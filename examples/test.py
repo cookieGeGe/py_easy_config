@@ -5,7 +5,7 @@
 # @File    : test.py
 # @Software: PyCharm
 
-from easy_config import EasyConfig, Dict
+from easy_config_py import EasyConfig, Dict
 
 econfig = EasyConfig(path=__file__)
 econfig.load_file()

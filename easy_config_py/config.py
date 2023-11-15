@@ -8,8 +8,8 @@ import os.path
 
 import anyconfig
 
-from easy_config import Dict
-from easy_config import FileLoader
+from easy_config_py import Dict
+from easy_config_py import FileLoader
 
 
 class EasyConfig(object):
