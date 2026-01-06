@@ -12,9 +12,12 @@ with open("README.md", "r") as fh:
 
 setup(
     name='easy-config-py',
-    version='0.0.4',
+    version='0.0.5',
     packages=['easy_config_py'],
     install_requires=['anyconfig'],
+    extras_require={
+        'aio': ['aiofiles'],
+    },
     license='MIT',
     description='',
     author='cookieGeGe',
